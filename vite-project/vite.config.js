@@ -9,8 +9,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       manifest: {
         name: '***Nome da sua aplicação',
-        short_name: '***NomeCurto',
-        description: '***Descrição da sua aplicação',
+        short_name: 'StoryMojis',
+        description: 'Aplicativo storymoji',
         theme_color: '***#000',
         icons: [
           {
