@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
@@ -20,6 +20,12 @@ function App() {
   }
   
   const [emoji, setEmoji] = useState("❤️")
+
+  useEffect( () => {
+
+   sortearEmoji()
+  }, [])
+
 
   return (
     <div className='container-app'>
