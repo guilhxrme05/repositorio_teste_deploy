@@ -8,7 +8,7 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: '***Nome da sua aplicação',
+        name: 'StoryMojis',
         short_name: 'StoryMojis',
         description: 'Aplicativo storymoji',
         theme_color: '***#000',
